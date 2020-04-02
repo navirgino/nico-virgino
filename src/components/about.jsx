@@ -4,22 +4,168 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                <section className="colorlib-about" data-section="about">
-                    <div className="colorlib-narrow-content">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="col-md-12">
-                                        <div className="about-desc">
-                                            <span className="heading-meta">About Me</span>
-                                            <h2 className="colorlib-heading">Who Am I?</h2>
+                <title>About</title>
+                <meta charSet="utf-8" />
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="description" content="vCard template project" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css" />
+                <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+                <link rel="stylesheet" type="text/css" href="plugins/mCustomScrollbar/jquery.mCustomScrollbar.css" />
+                <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
+                <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+                <div className="super_container">
+                    {/* Header */}
+                    <header className="header">
+                        <div className="header_content d-flex flex-row align-items-center justify-content-start">
+                            <div className="logo">Virgino<span>.</span>CV</div>
+                            <div className="main_nav d-flex flex-row align-items-end justify-content-start">
+                                <ul className="d-flex flex-row align-items-center justify-content-start">
+                                    <li className="active"><a href="about.html">About</a></li>
+                                    <li><a href="skills.html">Skills</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="experience.html">Experience</a></li>
+                                    {/*<li><a href="education.html">Education</a></li>*/}
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    {/*<li><a href="testimonials.html">Testimonials</a></li>*/}
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                                <div className="header_button ml-auto">
+                                    <a href="#">Available for freelance work</a>
+                                    <div className="d-flex flex-column align-items-center justify-content-center"><img src="images/download.png" alt="" /></div>
+                                </div>
+                            </div>
+                            {/* Menu */}
+                            <div className="menu">
+                                <div className="menu_content d-flex flex-row align-items-start justify-content-end">
+                                    <div className="hamburger ml-auto">menu</div>
+                                    <div className="menu_nav text-right">
+                                        <ul>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="skills.html">Skills</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="experience.html">Experience</a></li>
+                                            <li><a href="education.html">Education</a></li>
+                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <div className="content_container">
+                        <div className="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                            {/* General Information */}
+                            <div className="general_info d-flex flex-xl-column flex-md-row flex-column">
+                                <div>
+                                    <div className="general_info_image">
+                                        {/*<div className="background_image" style={{backgroundImage: ''}} />*/}
+                                        <div className="header_button_2">
+                                            <a href="#">Available for freelance work</a>
+                                            <div className="d-flex flex-column align-items-center justify-content-center"><img src="images/download.png" alt="" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="general_info_content">
+                                    <div className="general_info_content_inner mCustomScrollbar" data-mcs-theme="minimal-dark">
+                                        <div className="general_info_title">General Information</div>
+                                        <ul className="general_info_list">
+                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                                <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_1.png" alt="" /></div>
+                                                <div className="general_info_text">Name: <span>Nicola Virgino</span></div>
+                                            </li>
+                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                                <div className="general_info_icon d-flex flex-column align-items-start justify-content-center" />
+                                                <div className="general_info_text">Location: <span>Texas, USA</span></div>
+                                            </li>
+                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                                <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_2.png" alt="" /></div>
+                                                <div className="general_info_text">Date of Birth: <span>January 8th, 1994</span></div>
+                                            </li>
+                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                                <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_3.png" alt="" /></div>
+                                                <div className="general_info_text"><a href="mailto:contact@linque.com?subject=Job_Inquiry">nicovirgino@gmail.com</a></div>
+                                            </li>
+                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                                <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_4.png" alt="" /></div>
+                                                <div className="general_info_text">210-273-5613</div>
+                                            </li>
+                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                                <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_5.png" alt="" /></div>
+                                                <div className="general_info_text"><a href="mailto:contact@linque.com">www.mytemplatename.com</a></div>
+                                            </li>
+                                        </ul>
+                                        {/* Social */}
+                                        <div className="social_container">
+                                            <ul className="d-flex flex-row align-items-start justify-content-start">
+                                                <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
+                                                <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /></a></li>
+                                                <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
+                                                <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Main Content */}
+                            <div className="main_content">
+                                <div className="main_title_container d-flex flex-column align-items-start justify-content-end">
+                                    <div className="main_subtitle">Software Developer</div>
+                                    <div className="main_title">I'm Nico!</div>
+                                </div>
+                                <div className="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
+                                    <div className="about_content">
+                                        <div className="about_title">Description</div>
+                                        <div className="about_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit. Proin et faucibus diam.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit.</p>
+                                        </div>
+                                        {/* Loaders */}
+                                        <div className="loaders clearfix">
+                                            {/* Loader */}
+                                            <div className="loader_container">
+                                                <div className="loader" data-perc="0.75" />
+                                                <div className="loader_content text-center">
+                                                    <div className="loader_title">intuition</div>
+                                                    <div className="loader_subtitle">Etiam nec odio vestibulum est.</div>
+                                                </div>
+                                            </div>
+                                            {/* Loader */}
+                                            <div className="loader_container">
+                                                <div className="loader" data-perc="0.83" />
+                                                <div className="loader_content text-center">
+                                                    <div className="loader_title">creativity</div>
+                                                    <div className="loader_subtitle">Odio vestibulum est mattis.</div>
+                                                </div>
+                                            </div>
+                                            {/* Loader */}
+                                            <div className="loader_container">
+                                                <div className="loader" data-perc="0.25" />
+                                                <div className="loader_content text-center">
+                                                    <div className="loader_title">pure luck</div>
+                                                    <div className="loader_subtitle">Vestibulum est mattis effic.</div>
+                                                </div>
+                                            </div>
+                                            {/* Loader */}
+                                            <div className="loader_container">
+                                                <div className="loader" data-perc="0.95" />
+                                                <div className="loader_content text-center">
+                                                    <div className="loader_title">awesomeness</div>
+                                                    <div className="loader_subtitle">Vestibulum est mattis effic.</div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div align="center">
+                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                        Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</div>
+                </div>
             </div>
         )
     }
