@@ -5,15 +5,6 @@ export default class About extends Component {
         return (
             <div>
                 <title>About</title>
-                <meta charSet="utf-8" />
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="description" content="vCard template project" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css" />
-                <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-                <link rel="stylesheet" type="text/css" href="plugins/mCustomScrollbar/jquery.mCustomScrollbar.css" />
-                <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
-                <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
                 <div className="super_container">
                     {/* Header */}
                     <header className="header">
@@ -32,7 +23,7 @@ export default class About extends Component {
                                 </ul>
                                 <div className="header_button ml-auto">
                                     <a href="#">Available for freelance work</a>
-                                    <div className="d-flex flex-column align-items-center justify-content-center"><img src="images/download.png" alt="" /></div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center"><img src="../images/download.png" alt="" /></div>
                                 </div>
                             </div>
                             {/* Menu */}
@@ -161,10 +152,7 @@ export default class About extends Component {
                             </div>
                         </div>
                     </div>
-                    <div align="center">
-                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                        Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</div>
+
                 </div>
             </div>
         )
