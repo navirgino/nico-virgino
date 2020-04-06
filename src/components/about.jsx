@@ -52,11 +52,11 @@ export default class About extends Component {
                             <div className="general_info d-flex flex-xl-column flex-md-row flex-column">
                                 <div>
                                     <div className="general_info_image">
-                                        {/*<div className="background_image" style={{backgroundImage: ''}} />*/}
-                                        <div className="header_button_2">
+                                        <div className="background_image" style={{backgroundImage: 'images/nico.jpg'}} />
+                                        {/* <div className="header_button_2">
                                             <a href="#">Available for freelance work</a>
                                             <div className="d-flex flex-column align-items-center justify-content-center"><img src="images/download.png" alt="" /></div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="general_info_content">
@@ -83,18 +83,17 @@ export default class About extends Component {
                                                 <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_4.png" alt="" /></div>
                                                 <div className="general_info_text">210-273-5613</div>
                                             </li>
-                                            <li className="d-flex flex-row align-items-center justify-content-start">
+                                            {/* <li className="d-flex flex-row align-items-center justify-content-start">
                                                 <div className="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_5.png" alt="" /></div>
-                                                <div className="general_info_text"><a href="mailto:contact@linque.com">www.mytemplatename.com</a></div>
-                                            </li>
+                                                <div className="general_info_text"><a href="mailto:nicovirgino@gmail.com">nicovirgino@gmail.com</a></div>
+                                            </li> */}
                                         </ul>
                                         {/* Social */}
                                         <div className="social_container">
                                             <ul className="d-flex flex-row align-items-start justify-content-start">
-                                                <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
-                                                <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /></a></li>
-                                                <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                                                <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
+                                                <li><a href="https://github.com/navirgino" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"  /></a></li>
+                                                <li><a  href="https://www.linkedin.com/in/navirgino/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" /></a></li>
+                                                <li><a href="https://twitter.com/nicovirgino" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" /></a></li>
                                             </ul>
                                         </div>
                                     </div>
