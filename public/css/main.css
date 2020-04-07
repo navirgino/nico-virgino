@@ -1,0 +1,6 @@
+#myFace {
+    background: url("../images/nico.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

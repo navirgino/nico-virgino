@@ -5,6 +5,7 @@ export default class About extends Component {
         return (
             <div>
                 <title>About</title>
+                
                 <div className="super_container">
                     {/* Header */}
                     <header className="header">
@@ -15,15 +16,15 @@ export default class About extends Component {
                                     <li className="active"><a href="about.html">About</a></li>
                                     <li><a href="skills.html">Skills</a></li>
                                     <li><a href="services.html">Services</a></li>
-                                    <li><a href="experience.html">Experience</a></li>
-                                    {/*<li><a href="education.html">Education</a></li>*/}
+                                    {/* <li><a href="experience.html">Experience</a></li> */}
+                                    <li><a href="education.html">Education</a></li>
                                     <li><a href="portfolio.html">Portfolio</a></li>
                                     {/*<li><a href="testimonials.html">Testimonials</a></li>*/}
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                                 <div className="header_button ml-auto">
-                                    <a href="#">Available for freelance work</a>
-                                    <div className="d-flex flex-column align-items-center justify-content-center"><img src="../images/download.png" alt="" /></div>
+                                    {/* <a href="#">Available for freelance work</a> */}
+                                    {/* <div className="d-flex flex-column align-items-center justify-content-center"><img src="../images/download.png" alt="" /></div> */}
                                 </div>
                             </div>
                             {/* Menu */}
@@ -35,10 +36,10 @@ export default class About extends Component {
                                             <li><a href="about.html">About</a></li>
                                             <li><a href="skills.html">Skills</a></li>
                                             <li><a href="services.html">Services</a></li>
-                                            <li><a href="experience.html">Experience</a></li>
+                                            {/* <li><a href="experience.html">Experience</a></li> */}
                                             <li><a href="education.html">Education</a></li>
                                             <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            {/* <li><a href="testimonials.html">Testimonials</a></li> */}
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </div>
@@ -52,7 +53,7 @@ export default class About extends Component {
                             <div className="general_info d-flex flex-xl-column flex-md-row flex-column">
                                 <div>
                                     <div className="general_info_image">
-                                        <div className="background_image" style={{backgroundImage: 'images/nico.jpg'}} />
+                                        <div id="myFace" className="background_image" style={{backgroundImage: 'images/nico.jpg'}} />
                                         {/* <div className="header_button_2">
                                             <a href="#">Available for freelance work</a>
                                             <div className="d-flex flex-column align-items-center justify-content-center"><img src="images/download.png" alt="" /></div>
