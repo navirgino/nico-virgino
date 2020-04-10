@@ -110,7 +110,10 @@ export default class About extends Component {
                                     <div className="about_content">
                                         <div className="about_title">Description</div>
                                         <div className="about_text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit. Proin et faucibus diam.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit.</p>
+                                            <p>Forever student to science, and forever lover of tech.
+                                                I often consider myself as a full-time tinkerer.
+                                                I love fashion if you need clothing tips too.
+                                            </p>
                                         </div>
                                         {/* Loaders */}
                                         <div className="loaders clearfix">
@@ -118,32 +121,32 @@ export default class About extends Component {
                                             <div className="loader_container">
                                                 <div className="loader" data-perc="0.75" />
                                                 <div className="loader_content text-center">
-                                                    <div className="loader_title">intuition</div>
-                                                    <div className="loader_subtitle">Etiam nec odio vestibulum est.</div>
+                                                    <div className="loader_title">Java</div>
+                                                    <div className="loader_subtitle">How vast.</div>
                                                 </div>
                                             </div>
                                             {/* Loader */}
                                             <div className="loader_container">
                                                 <div className="loader" data-perc="0.83" />
                                                 <div className="loader_content text-center">
-                                                    <div className="loader_title">creativity</div>
-                                                    <div className="loader_subtitle">Odio vestibulum est mattis.</div>
+                                                    <div className="loader_title">MySQL</div>
+                                                    <div className="loader_subtitle">Weird passion for db design.</div>
                                                 </div>
                                             </div>
                                             {/* Loader */}
                                             <div className="loader_container">
                                                 <div className="loader" data-perc="0.25" />
                                                 <div className="loader_content text-center">
-                                                    <div className="loader_title">pure luck</div>
-                                                    <div className="loader_subtitle">Vestibulum est mattis effic.</div>
+                                                    <div className="loader_title">C#</div>
+                                                    <div className="loader_subtitle">I dabble in game development.</div>
                                                 </div>
                                             </div>
                                             {/* Loader */}
                                             <div className="loader_container">
                                                 <div className="loader" data-perc="0.95" />
                                                 <div className="loader_content text-center">
-                                                    <div className="loader_title">awesomeness</div>
-                                                    <div className="loader_subtitle">Vestibulum est mattis effic.</div>
+                                                    <div className="loader_title">React</div>
+                                                    <div className="loader_subtitle">I made this site using react.</div>
                                                 </div>
                                             </div>
                                         </div>
