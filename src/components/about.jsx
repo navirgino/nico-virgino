@@ -19,7 +19,7 @@ export default class About extends Component {
                                     {/* <li><a href="experience.html">Experience</a></li> */}
                                     <li><a href="education.html">Education</a></li>
                                     <li><a href="portfolio.html">Portfolio</a></li>
-                                    {/*<li><a href="testimonials.html">Testimonials</a></li>*/}
+                                    <li><a href="testimonials.html">Blog</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                                 <div className="header_button ml-auto">
@@ -39,7 +39,7 @@ export default class About extends Component {
                                             {/* <li><a href="experience.html">Experience</a></li> */}
                                             <li><a href="education.html">Education</a></li>
                                             <li><a href="portfolio.html">Portfolio</a></li>
-                                            {/* <li><a href="testimonials.html">Testimonials</a></li> */}
+                                            <li><a href="testimonials.html">Blog</a></li>
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </div>
